@@ -134,6 +134,7 @@
 		$spacez = "&nbsp" . "&nbsp" . "&nbsp";
 		$space_count = 3;
 		$space_countz = 9;
+		$counter = 6;
 
 		for ($counta = 0; $counta <= 6; $counta++){
 			$output3 .= "<p>";
@@ -141,14 +142,16 @@
 			// for ($space_count = 0; $space_count <= 6)
 
 			if (($counta % 2) == 0) {
-				for ($countc = 0; $countc != $space_count; $space_count--){
+				for ($countc = 0; $countc != $space_count; $countc++){
 					$output3 .= $spacez;
-					$output3 .= $spacez;
-					$output3 .= $spacez;
+					// $output3 .= $spacez;
+					// $output3 .= $spacez;
 				}
 				for ($countb = 0; $countb <= $counta; $countb++) { 
 					$output3 .= "* ";
 				}
+				$space_count--;
+
 				// $output3 .= $spacez;
 				// $output3 .= $spacez;
 				// for ($a = $space_count; $space_count != 0; $space_count--) {
@@ -159,6 +162,7 @@
 			$output3 .= "</p>";
 		}
 		echo $output3;
+
 	?>
 
 
