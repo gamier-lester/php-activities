@@ -1,0 +1,18 @@
+			if ($counta == 0) $output3 .= "&nbsp" . "&nbsp" . "&nbsp";
+			if ($counta == 0) $output3 .= "&nbsp" . "&nbsp" . "&nbsp";
+			if ($counta == 0) $output3 .= "&nbsp" . "&nbsp" . "&nbsp";
+
+			if ($counta == 2) $output3 .= "&nbsp" . "&nbsp" . "&nbsp";
+			if ($counta == 2) $output3 .= "&nbsp" . "&nbsp" . "&nbsp";
+			
+			if ($counta == 4) $output3 .= "&nbsp" . "&nbsp" . "&nbsp";
+
+321
+
+0 0
+1 
+2 0
+3 
+4 0
+5 
+6 0
