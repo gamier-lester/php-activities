@@ -143,15 +143,18 @@
 			if (($counta % 2) == 0) {
 				for ($countc = 0; $countc != $space_count; $space_count--){
 					$output3 .= $spacez;
+					$output3 .= $spacez;
+					$output3 .= $spacez;
+				}
+				for ($countb = 0; $countb <= $counta; $countb++) { 
+					$output3 .= "* ";
 				}
 				// $output3 .= $spacez;
 				// $output3 .= $spacez;
 				// for ($a = $space_count; $space_count != 0; $space_count--) {
 				// 	$output3 .= $spacez;
 				// }
-				for ($countb = 0; $countb <= $counta; $countb++) { 
-					$output3 .= "* ";
-				}
+				
 			}
 			$output3 .= "</p>";
 		}
