@@ -24,6 +24,8 @@
 
 		//B. vowelCount() accepts strings as parameter and returns the number of vowels in the string
 
+		$vowelz = ["a", "e", "i", "o", "u"];
+
 		function vowelCount($text) {
 			$output = 0;
 			$output += substr_count($text, 'a');
