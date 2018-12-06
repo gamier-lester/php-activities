@@ -165,6 +165,45 @@
 
 	?>
 
+	<?php
+		// Solution from sir Alli
+		echo "<br /><br />";
+
+		for ($counta=0; $counta<5; $counta++) {
+
+			for($countb = 5; $countb > $counta; $countb--){
+				echo "&nbsp;&nbsp;";
+			}
+
+			for ($countb=1; $countb<=$counta; $countb++) {
+				echo "**";
+			}
+
+			echo "*<br />";
+		}
+	?>
+
+	<?php
+		//solution from sir Alli
+		echo "<br /><br />";
+		for ($counta=0; $counta<5; $counta++) {
+
+			for($countb = 5; $countb > $counta; $countb--){
+				echo "&nbsp;&nbsp;";
+			}
+			for ($countb=0; $countb<$counta; $countb++){
+				echo "*";
+
+			}
+			
+			for ($countb=0; $countb<=$counta; $countb++){
+				echo "*";
+
+			}
+
+			echo "<br />";
+		}
+	?>
 
 	<h2> #2 </h2>
 
