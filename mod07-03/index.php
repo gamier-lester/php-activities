@@ -36,7 +36,7 @@
 			return $output;
 		}
 
-		echo vowelCount("lester");
+		echo vowelCount("eee222aaafff");
 
 		// echo vowelCount("aaa");
 		// $text2 = "aad";
