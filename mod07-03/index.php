@@ -1,3 +1,4 @@
+<?php include("library.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,39 +11,17 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+
 	<?php
-		//A. daysInMonth() takes month as input and returns the number of days present in that month
+		$string_input = "racecar";
 
-		function daysInMonth($num1) {
-			return cal_days_in_month(CAL_GREGORIAN, $num1, 2018);
-
+		if(is_palindrome($string_input)) {
+			echo "$string_input is a PALINDROME";
+		} else {
+			echo "$string_input is NOT a PALINDROME";
 		}
-
-		echo daysInMonth(3);
-
-		echo "<br /><br />";
-
-		//B. vowelCount() accepts strings as parameter and returns the number of vowels in the string
-
-		$vowelz = ["a", "e", "i", "o", "u"];
-
-		function vowelCount($text) {
-			$output = 0;
-			$output += substr_count($text, 'a');
-			$output += substr_count($text, 'e');
-			$output += substr_count($text, 'i');
-			$output += substr_count($text, 'o');
-			$output += substr_count($text, 'u');
-			return $output;
-		}
-
-		echo vowelCount("eee222aaafff");
-
-		// echo vowelCount("aaa");
-		// $text2 = "aad";
-		// echo substr_count($text2, 'a');
-
 	?>
+
 
 <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
